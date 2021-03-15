@@ -1,0 +1,101 @@
+.title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.title-size {
+  font-size: 1.8rem;
+}
+
+.description-size {
+  font-size: 0.7rem;
+}
+
+.dark-text {
+  color: hsl(234, 12%, 34%);
+}
+
+.muted-text {
+  color: hsl(229, 6%, 66%);
+}
+
+.extra-light {
+  font-weight: 200;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.fit-text {
+  max-width: 450px;
+  margin: auto;
+}
+
+.card {
+  padding: 25px;
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.card.red {
+  border-top: solid hsl(0, 78%, 62%);
+}
+
+.card.cyan {
+  border-top: solid hsl(180, 62%, 55%);
+}
+
+.card.orange {
+  border-top: solid hsl(34, 97%, 64%);
+}
+
+.card.blue {
+  border-top: solid hsl(212, 86%, 64%);
+}
+
+.card-title {
+  margin-bottom: 10px;
+} 
+
+.card-image {
+  float: right;
+  margin-top: 20px;
+}
+ 
+@media only screen and (min-width: 940px) {
+  /* For desktop: */
+  /* Create three equal columns that floats next to each other */
+  .row {
+    max-width: 1000px;
+    min-width: 940px;
+    margin: auto;
+    margin-top: 60px;
+  } 
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .one-card {
+    margin-top: 120px;
+  }
+}
